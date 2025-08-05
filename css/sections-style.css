@@ -1,0 +1,143 @@
+@import "varStyle.css";
+
+.section {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+/* SectionTitle */
+.section-title {
+  padding: 8rem 1rem 1rem 1rem;
+}
+.section-title h1 {
+  font-family: "Poppins", cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.section-title h2 {
+  font-size: 1.5rem;
+  color: var(--text-span);
+}
+.section-title h2 span {
+  color: var(--text-span-2);
+}
+.section-title .location {
+  font-family: "Intel One Mono", sans-serif;
+  color: var(--text-color-secondary);
+}
+.section-title ul {
+  padding: 1rem 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.section-title .social {
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background: var(--seasalt);
+  width: 100px;
+  height: 50px;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+}
+.section-title .social a {
+  color: var(--text-color-secondary);
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.social:hover {
+  background: var(--bg-hover);
+  transition: 0.2s ease;
+}
+
+/* Section Me */
+.section-me {
+  gap: 10px;
+}
+.section-me p {
+  font-family: "Intel One Mono", sans-serif;
+  color: var(--text-color-secondary);
+}
+
+/* Section Projects */
+.section-proyects {
+  gap: 2rem;
+}
+.section-proyects #projects {
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+@media (max-width: 700px) {
+  .section-proyects #projects {
+    justify-content: center;
+  }
+}
+.section-proyects #projects .card-project {
+  width: 210px;
+  padding: 1rem;
+  text-wrap: balance;
+  border-radius: 5px;
+  background: var(--bg-with);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+.section-proyects #projects .card-project h3 {
+  font-weight: 400;
+}
+.section-proyects #projects .card-project p {
+  margin-top: 0.2rem;
+  margin-bottom: 3rem;
+  font-size: 0.8rem;
+  font-family: "Intel One Mono", sans-serif;
+  color: var(--text-color-secondary);
+}
+.section-proyects #projects .card-project span {
+  color: var(--text-span);
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-size: 0.7rem;
+  font-family: "Intel One Mono", sans-serif;
+}
+.section-proyects #projects .card-project span strong {
+  background: var(--seasalt);
+  text-wrap: wrap;
+  padding: 3px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+/* Section Abilitys */
+.section-ability {
+  gap: 1.5rem;
+}
+.section-ability ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.section-ability ul li {
+  font-size: 0.8rem;
+  font-family: "Intel One Mono", sans-serif;
+  font-weight: 400;
+  background: var(--seasalt);
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}

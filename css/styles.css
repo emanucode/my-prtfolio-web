@@ -1,0 +1,34 @@
+/* Import Style*/
+@import "header-style.css";
+@import "sections-style.css";
+@import "footer-style.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  min-height: 100vh; /* Ocupa toda la altura de la ventana */
+  margin: 0;
+  flex-direction: column;
+}
+#bg-div {
+  position: fixed;
+  top: 0;
+  z-index: -2;
+  height: 100vh; /* h-screen */
+  width: 100vw; /* w-screen */
+  transform: rotate(180deg);
+  background-color: white;
+  background-image: radial-gradient(
+    60% 120% at 50% 50%,
+    hsla(0, 100%, 48%, 0) 0%,
+    rgba(206, 236, 255, 0.218) 100%
+  );
+}

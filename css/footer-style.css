@@ -1,0 +1,39 @@
+@import "/css/varStyle.css";
+
+.footer-container {
+  margin-top: 2rem;
+  border-top: 1px solid var(--bg-hover);
+  background: var(--bg-with-2);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.footer p {
+  color: var(--text-span);
+  font-size: 0.9rem;
+  font-family: "Intel One Mono", sans-serif;
+}
+.footer span {
+  color: var(--text-span);
+  font-weight: bold;
+  font-size: 0.9rem;
+  font-family: "Intel One Mono", sans-serif;
+}
+.footer a {
+  font-weight: bold;
+  color: var(--text-span);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-family: "Intel One Mono", sans-serif;
+}
+.footer a:hover {
+  text-decoration: underline;
+}

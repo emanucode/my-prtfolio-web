@@ -1,0 +1,15 @@
+/* Variables For the Style */
+:root {
+  --black: #060809ff;
+  --light-blue: #c1d7d6ff;
+  --seasalt: #f1f1f1;
+  --brunswick-green: #204640ff;
+  --raisin-black: #241e1fff;
+  --bg-hover: #dddd;
+  --bg-with: #fefefe;
+  --bg-with-2: #fafafa;
+  --text-color: #0e0e0e;
+  --text-color-secondary: #777777;
+  --text-span: #404040;
+  --text-span-2: #303030;
+}
