@@ -13,6 +13,10 @@
 
 ---
 
+![Vista previa del sitio](assets/captura.png)
+
+---
+
 ## 📁 Estructura del proyecto
 
 my-portfolio-web/
