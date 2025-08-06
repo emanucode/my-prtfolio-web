@@ -18,17 +18,17 @@
 ---
 
 ## 📁 Estructura del proyecto
-
+```plaintext
 my-portfolio-web/
 ├── index.html
 ├── css/
-│ └── styles.css
+│   └── styles.css
 ├── js/
-│ └── main.js
+│   └── main.js
 ├── assets/
-│ └── images/
+│   └── images/
 └── README.md
-
+```
 ---
 
 ## 💡 Características
