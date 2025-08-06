@@ -1,4 +1,4 @@
-# 🌐 Portafolio Web - Emanuel Aroca Flores
+# 🌐 Portafolio Web - Emanucode
 
 ¡Bienvenido a mi portafolio web! Aquí presento mis proyectos, habilidades y un poco sobre mí como desarrollador web.
 
@@ -12,7 +12,7 @@
 - Diseño responsivo
 
 ---
-
+## 📸 Preview
 ![Vista previa del sitio](capture.png)
 
 ---
