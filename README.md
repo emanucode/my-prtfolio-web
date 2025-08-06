@@ -39,7 +39,7 @@ my-portfolio-web/
 ## 🚀 Cómo ver el proyecto
 
 Podés verlo en vivo aquí:  
-[🔗 Ver online (GitHub Pages)](https://tusitio.github.io/my-portfolio-web)
+[🔗 Ver online (GitHub Pages)](https://emanucode.github.io/my-prtfolio-web/)
 
 O clonar el repositorio:
 
