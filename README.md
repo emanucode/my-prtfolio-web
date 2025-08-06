@@ -13,7 +13,7 @@
 
 ---
 
-![Vista previa del sitio](png(1).png)
+![Vista previa del sitio](capture.png)
 
 ---
 
